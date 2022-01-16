@@ -1,0 +1,75 @@
+body, h1 {
+    margin: 0;
+}
+
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+    /* background-color: beige; */
+}
+
+/* NAVBAR */
+.navbar {
+    width: 100%;
+    /* border: 2px solid black; */
+    padding: 20px 0;
+}
+
+/* CONTENT */
+.contentContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.menuContainer ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+/* MENU */
+.menuContainer {
+    /* border: 2px solid red; */
+    width: 20%;
+    /* padding-top: 50px; */
+}
+
+.rightMenuBorder {
+    margin-top: 50px;
+    border-right: 1px dotted grey;
+}
+
+li {
+    /* background-color: red; */
+    display: block;
+    /* border: 2px solid black; */
+    /* background-color: red; */
+}
+
+.link {
+    /* border: 1px solid black; */
+    display: block;
+    padding: 10px 0;
+    border-radius: 2%;
+    padding-left: 10px;
+}
+
+.menuContainer .link:hover {
+    background-color: lightblue;
+    text-decoration: none;
+}
+
+/* CHAPTER */
+.chapterContainer {
+    width: 80%;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+}
+
+.chapterSection {
+    width: 100%;
+    border: 2px solid red;
+    margin-top: 25px;
+    padding-left: 30px;
+}
