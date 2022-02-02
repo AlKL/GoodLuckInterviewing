@@ -2,7 +2,7 @@
 const Navbar = () => {
     return (
         <div className="navbar">
-            <h1>GL Interviewing!</h1>
+            <h1>good luck interviewing !</h1>
         </div>
     )
 }
